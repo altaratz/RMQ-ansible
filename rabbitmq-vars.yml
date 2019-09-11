@@ -1,0 +1,24 @@
+description: "Created using Ansible"
+
+vcenter: "elm-il-1-2-vcenter.elm.vmware.com"
+vcenter_user: "administrator@vsphere.local"
+vcenter_pass: " "
+
+dc: "Lab-ElmindA"
+cluster_name: "EL-RMQ-Cluster"
+datastore: "vsanDatastore"
+folder: "RabbitMQ"
+
+ubuntu_template: "ubuntu-16.04.template"
+vm_prefix: "elm"
+
+portgroup: "dpgVLAN135"
+netblock: "10.180.138"
+netmask: "255.255.255.224"
+gateway: "10.180.138.60"
+domain: "elm.wmare.com"
+start_ip: "47"
+end_ip: "51"
+
+user_password: "Monster."
+default_vhost: "bluebell"
