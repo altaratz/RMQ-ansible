@@ -80,8 +80,8 @@ $ sudo rabbitmqctl set_permissions -p / "myuser" ".*" ".*" ".*"
 
 Create rabbitmq-server cluster:
 Step 1:
-view /var/lib/rabbitmq/.erlang.cookie [Node 1]
-[Node 1]
+view /var/lib/rabbitmq/.erlang.cookie [rabbitmq-1]
+[rabbitmq-1]
 cat /var/lib/rabbitmq/.erlang.cookie
 "Result = AFYDPNYXGNARCABLNENP"
 
@@ -93,7 +93,7 @@ echo -n "AFYDPNYXGNARCABLNENP" > /var/lib/rabbitmq/.erlang.cookie
 service rabbitmq-server start
 
 Step 3:
-join cluster to node 1 [Node 2-5]
+join cluster to rabbitmq-1 [Node 2-5]
 [Node 2-5]
 rabbitmqctl stop_app
 rabbitmqctl reset
