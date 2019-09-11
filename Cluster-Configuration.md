@@ -17,13 +17,18 @@ vi /etc/hosts
 
 
 Restart rabbitmq-server [all nodes]:
+
 service rabbitmq-server restart
 
 Enable rabbitmq-server service:
+
 chkconfig rabbitmq-server on
 
-Verify rabbitmq-server is running [all nodes]"
+
+Verify rabbitmq-server is running [all nodes]:
+
 rabbitmqctl status
+
 
 
 Add User:
