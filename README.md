@@ -1,9 +1,9 @@
 # RMQ-ansible
-rabbitmq
+rabbitmq:
 
 Ansible playbooks for creating Ubuntu/Debian RabbitMQ nodes.
 
-Playbooks
+Playbooks:
 
 create_vms.yml: Creates a set of RabbitMQ nodes using a specified template in a vSphere environment.
 
