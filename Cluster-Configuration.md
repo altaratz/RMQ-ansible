@@ -5,10 +5,15 @@ Edit /etc/hosts:
 vi /etc/hosts
 
 #10.180.138.47  rabbitmq-1
+
 #10.180.138.48  rabbitmq-2
+
 #10.180.138.49  rabbitmq-3
+
 #10.180.138.50  rabbitmq-4
+
 #10.180.138.51  rabbitmq-5
+
 
 
 Restart rabbitmq-server [all nodes]:
